@@ -1,0 +1,3 @@
+# Requirements for Vercel deployment
+# Note: This is a desktop app, not a web app
+# This file is only for Vercel compatibility
