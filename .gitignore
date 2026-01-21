@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# Outputs and generated files
+outputs/
+*.log
+send_awards_log_backup.txt
+
+# Backup files
+*.backup
+*.bak
+
+# Photos and QR codes (nếu muốn bao gồm, xóa dòng này)
+# photos/
+# QR/
+# QR_SEAMO/
+
+# Large data files
+# Danh sách chia túi*.xlsx
+# DS_*.xlsx
+# DATA KQ.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build files
+*.spec
+build/
+dist/
+
+# Terminals (Cursor specific)
+.cursor/

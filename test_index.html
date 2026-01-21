@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Tra cứu thông tin học sinh</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Test - Medal Badge Colors</h1>
+        
+        <div style="padding: 20px; background: white; margin: 20px; border-radius: 5px;">
+            <h3>Test Medal Badges:</h3>
+            <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 20px;">
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <span style="width: 150px;">HUY CHƯƠNG VÀNG:</span>
+                    <div class="score-badge gold">HUY CHƯƠNG VÀNG</div>
+                </div>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <span style="width: 150px;">HUY CHƯƠNG BẠC:</span>
+                    <div class="score-badge silver">HUY CHƯƠNG BẠC</div>
+                </div>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <span style="width: 150px;">HUY CHƯƠNG ĐỒNG:</span>
+                    <div class="score-badge bronze">HUY CHƯƠNG ĐỒNG</div>
+                </div>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <span style="width: 150px;">KHUYẾN KHÍCH:</span>
+                    <div class="score-badge encouragement">KHUYẾN KHÍCH</div>
+                </div>
+                <div style="display: flex; gap: 10px; align-items: center;">
+                    <span style="width: 150px;">CHỨNG NHẬN:</span>
+                    <div class="score-badge certificate">CHỨNG NHẬN</div>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 30px;">Thông tin cột Excel:</h3>
+            <ul style="line-height: 1.8; margin-top: 10px;">
+                <li><strong>SBD:</strong> Số báo danh</li>
+                <li><strong>FULL NAME:</strong> Họ và tên</li>
+                <li><strong>Ngày sinh:</strong> D.O.B (thay vì D.O.B)</li>
+                <li><strong>KHỐI:</strong> Khối (1-12)</li>
+                <li><strong>TRƯỜNG:</strong> Tên trường</li>
+                <li><strong>KQ VQG TOÁN:</strong> Kết quả Toán (thay vì TOÁN)</li>
+                <li><strong>KQ VQG KHOA HỌC:</strong> Kết quả Khoa học (thay vì KHOA HỌC)</li>
+                <li><strong>KQ VQG TIẾNG ANH:</strong> Kết quả Tiếng Anh (thay vì TIẾNG ANH)</li>
+                <li><strong>MÃ CERT ĐẦY ĐỦ:</strong> Mã cert đầy đủ (VD: 1*NULL-MATH*V-ENGLISH*D-SCIENCE*1)</li>
+                <li><strong>MÃ CERT:</strong> Mã cert rút gọn (VD: 1*V-E*D-S*1)</li>
+                <li><strong>Số điện thoại liên hệ:</strong> SĐT phụ huynh</li>
+                <li><strong>Email liên hệ:</strong> Email phụ huynh</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
